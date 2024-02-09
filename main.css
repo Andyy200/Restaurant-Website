@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px;
+}
+.menu-item {
+    background-color: lightgray;
+    width: 90%;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust alignment */
+}
+
+.menu-item span {
+    margin-right: 10px; /* Adjust spacing between item and price */
+}
+
+.horizontal-menu li {
+    background-color: lightgray;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.horizontal-menu li a {
+    color: red;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.horizontal-menu li:hover {
+    background-color: black;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20;
+}
+
+.doordashimage {
+    width: 20px;
+    height: 15px;
+
+    
+}
+.grubhubimage {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.ubereatsimage {
+    width: 60px;
+    text-align: center;
+}
+.qmenuimage {
+    width: 60px;
+    text-align: center;
+}
+
+h3 {
+    color:red;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+p {
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.doordashtext,
+.grubhubtext,
+.ubereatstext,
+.qmenutext,
+.menutext {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    padding: 5px;
+    margin: center;
+    font-family: 'Poppins' sans-serif;
+
+}
+.hours {
+    text-align: center;
+    font-weight: bold;
+    padding:10px;
+    margin: 5px;
+    font-size: 35px;
+}
+
+.delivery {
+    padding: 10px;
+    color: Black;
+    margin: 15px;
+    font-size: 35px;
+}
+
+
+.doordash,
+.grubhub,
+.ubereats,
+.qmenu,
+.menu {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: lightgray;
+    width: 60%;
+    height: 20px;
+    border: 10px solid green;
+    padding: 30px;
+    margin: auto;
+    list-style-type: none;
+}
+
+.selection {
+    border: 1px solid black;
+    margin: 8px
+}
+
+.mainpage {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    display:flex;
+    width: 25%;
+    height: fit-content;
+    border: 3px solid black;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.menu2 {
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+
+
+}
+
+.return-to-top {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: lightgray;
+    font-family: 'Poppins' sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 15%;
+    margin: auto;
+    border: 3px solid black;
+    height:fit-content;
+
+}
+
+.return-to-top-text {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+
+}
